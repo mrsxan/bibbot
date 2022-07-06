@@ -1,0 +1,19 @@
+{
+  "name": "bibbot",
+  "version": "1.0.0",
+  "description": "bot for telegram by kirill",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "supervisor index.js"
+  },
+  "author": "Buzukin Kirill",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "telegraf": "^4.8.5"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
